@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  root "blogs#new"
   resources :blogs do
     resources :comments
   end
